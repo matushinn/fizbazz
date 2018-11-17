@@ -1,12 +1,12 @@
 def fizzbuzz_convert(number):
     if number % 15 == 0:
-        print("fizzbuzz")
+       return "fizzbuzz"
     elif number % 5 == 0:
-        print("Buzz")
+       return "Buzz"
     elif number % 3 == 0:
-        print("Fizz")
+       return "Fizz"
     else:
-        print(str(number))
+        return str(number)
 
 for number in range(1,101):
         fizzbuzz_convert(number)
