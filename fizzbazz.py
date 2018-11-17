@@ -1,6 +1,6 @@
-def fizzbazz_decide(number):
+def fizzbuzz_convert(number):
     if number % 15 == 0:
-        print("fizzbazz")
+        print("fizzbuzz")
     elif number % 5 == 0:
         print("Buzz")
     elif number % 3 == 0:
@@ -8,7 +8,11 @@ def fizzbazz_decide(number):
     else:
         print(str(number))
 
-
 for number in range(1,101):
-    fizzbazz_decide(number)
+        fizzbuzz_convert(number)
+
+
+
+
+
 
